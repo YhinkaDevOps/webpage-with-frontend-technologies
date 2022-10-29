@@ -1,14 +1,13 @@
-import Footer from "./components/Footer";
-import Main from "./components/Main";
+import Footer from "./components/Footer"
+import Main from "./components/Main"
 
 function App() {
   return (
-    <div className="App">
-      <Main/>
-      <Footer/>
-      
+    <div>
+      <Main />
+      <Footer />
     </div>
-  );
+  )
 }
 
-export default App;
+export default App
