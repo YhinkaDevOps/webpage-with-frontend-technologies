@@ -6,7 +6,7 @@ import Githubicon from '../assets/svg/github.svg';
 
 const Main = () => {
   return (
-    <div className="main-container h-[892px] md:h-[998px] ">
+    <div className="main-container md:h-[998px] ">
       <div className="main-section pt-16 pb-8 md:pr-8 md:pt-16 md:pl-8 items-center flex flex-col ">
         <div className="main-content flex flex-col items-center md:mb-14 md:items-start pl-4 pr-4 w-[343px] h-[700px] md:w-[1152px] md:h-[774px]">
           <div className="profile-section flex flex-col  h-[140px] mb-8 md:mb-14 md:h-[142px] items-center relative">
