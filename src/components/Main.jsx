@@ -54,7 +54,7 @@ const Main = () => {
             </a>
             <a
               href="https://books.zuri.team/"
-              className="bg-[#EAECF0] rounded-lg py-6 px-6 flex items-center justify-center text-gray-900 font-medium text:sm md:text-lg w-[343px] md:w-[1152px]cursor-pointer "
+              className="bg-[#EAECF0] rounded-lg py-6 px-6 flex items-center justify-center text-gray-900 font-medium text:sm md:text-lg w-[343px] md:w-[1152px] cursor-pointer "
               id="books"
               title="Need premium books to help you design and code? Click here!! "
             >
