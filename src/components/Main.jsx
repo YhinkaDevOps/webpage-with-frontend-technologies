@@ -32,7 +32,7 @@ const Main = () => {
               alt="share-icon"
             />
           </div>
-          {/* Link Section */}
+
           <div className="link-section h-[528px] md:h-[576px] flex flex-col items-center p-0 gap-6 ">
             <a
               href="https://twitter.com/Mahoetey/"
@@ -80,6 +80,13 @@ const Main = () => {
               title="Get free design books by Zuri"
             >
               Design Books
+            </a>
+            <a
+              className="bg-[#EAECF0] rounded-lg py-6 px-6 flex items-center justify-center text-gray-900 font-medium text:sm md:text-lg w-[343px] md:w-[1152px]"
+              id="contact"
+              title="Contact Me"
+            >
+              Contact Me
             </a>
           </div>
         </div>
