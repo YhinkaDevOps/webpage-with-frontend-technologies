@@ -1,11 +1,16 @@
-import Main from "./components/Main";
-import Footer from "./components/Footer";
+import Main from './components/Main';
+import Contact from './components/contact';
+import {BrowserRouter, Routes, Route} from 'react-router-dom';
 
 function App() {
   return (
     <div>
-      <Main />
-      <Footer />
+      <BrowserRouter>
+        <Routes>
+          <Route path="/" element={<Main />} />
+          <Route path="/contact" element={<Contact />} />
+        </Routes>
+      </BrowserRouter>
     </div>
   );
 }
