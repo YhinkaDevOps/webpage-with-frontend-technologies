@@ -20,7 +20,7 @@ const Main = () => {
               id="profile__img"
             />
             <p
-              className="font-inter h-7 md:h-[30px] text-gray-900 flex flex-row justify-center items-center font-bold mb-14 text-xl w-[1152px] "
+              className="font-inter h-7 md:h-[30px] text-gray-900 flex flex-row justify-center items-center font-bold mb-14 text-xl w-[1152px] cursor-pointer"
               id="twitter"
             >
               Mahoety
@@ -39,7 +39,7 @@ const Main = () => {
           <div className="link-section h-[528px] md:h-[576px] flex flex-col items-center p-0 gap-6 ">
             <a
               href="https://twitter.com/Mahoetey/"
-              className="bg-[#EAECF0] rounded-lg py-6 px-6 flex items-center justify-center text-gray-900 font-medium text-sm md:text-lg h-[68px] md:[76px] w-[343px] md:w-[1152px]"
+              className="bg-[#EAECF0] rounded-lg py-6 px-6 flex items-center justify-center text-gray-900 font-medium text-sm md:text-lg h-[68px] md:[76px] w-[343px] md:w-[1152px] cursor-pointer"
               id="twitter__link"
             >
               Twitter Link
@@ -47,14 +47,14 @@ const Main = () => {
             <a
               href="https://training.zuri.team/"
               id="btn__zuri"
-              className="bg-[#EAECF0] rounded-lg py-6 px-6 flex items-center justify-center text-gray-900 font-medium text:sm md:text-lg w-[343px] md:w-[1152px]"
+              className="bg-[#EAECF0] rounded-lg py-6 px-6 flex items-center justify-center text-gray-900 font-medium text:sm md:text-lg w-[343px] md:w-[1152px] cursor-pointer"
               title="Meet the Zuri Team"
             >
               Zuri Team
             </a>
             <a
               href="https://books.zuri.team/"
-              className="bg-[#EAECF0] rounded-lg py-6 px-6 flex items-center justify-center text-gray-900 font-medium text:sm md:text-lg w-[343px] md:w-[1152px]"
+              className="bg-[#EAECF0] rounded-lg py-6 px-6 flex items-center justify-center text-gray-900 font-medium text:sm md:text-lg w-[343px] md:w-[1152px]cursor-pointer "
               id="books"
               title="Need premium books to help you design and code? Click here!! "
             >
@@ -63,14 +63,14 @@ const Main = () => {
             <a
               href="https://books.zuri.team/python-for-beginners?ref_id=Olayinka"
               id="book__python"
-              className="bg-[#EAECF0] rounded-lg py-6 px-6 flex items-center justify-center text-gray-900 font-medium text:sm md:text-lg w-[343px] md:w-[1152px] "
+              className="bg-[#EAECF0] rounded-lg py-6 px-6 flex items-center justify-center text-gray-900 font-medium text:sm md:text-lg w-[343px] md:w-[1152px] cursor-pointer "
               title="Get your best Python Books Here!"
             >
               Python Books
             </a>
             <a
               href="https://background.zuri.team/"
-              className="bg-[#EAECF0] rounded-lg py-6 px-6 flex items-center justify-center text-gray-900 font-medium text:sm md:text-lg w-[343px] md:w-[1152px]"
+              className="bg-[#EAECF0] rounded-lg py-6 px-6 flex items-center justify-center text-gray-900 font-medium text:sm md:text-lg w-[343px] md:w-[1152px] cursor-pointer"
               id="pitch"
               title="We offer comprehensive background check on Coders"
             >
@@ -78,15 +78,15 @@ const Main = () => {
             </a>
             <a
               href="https://books.zuri.team/design-rules"
-              className="bg-[#EAECF0] rounded-lg py-6 px-6 flex items-center justify-center text-gray-900 font-medium text:sm md:text-lg w-[343px] md:w-[1152px]"
+              className="bg-[#EAECF0] rounded-lg py-6 px-6 flex items-center justify-center text-gray-900 font-medium text:sm md:text-lg w-[343px] md:w-[1152px] cursor-pointer"
               id="book__design"
               title="Get free design books by Zuri"
             >
               Design Books
             </a>
-            <Link to="/contact">
+            <Link to="/contact" className="cursor-pointer">
               <a
-                className="bg-[#EAECF0] rounded-lg py-6 px-6 flex items-center justify-center text-gray-900 font-medium text:sm md:text-lg w-[343px] md:w-[1152px]"
+                className="bg-[#EAECF0] rounded-lg py-6 px-6 flex items-center justify-center text-gray-900 font-medium text:sm md:text-lg w-[343px] md:w-[1152px] "
                 id="contact"
                 title="Contact Me"
               >
