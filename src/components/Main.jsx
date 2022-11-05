@@ -2,7 +2,10 @@ import React from 'react';
 import profileimage from '../assets/images/profile__img.png';
 import Shareicon from '../assets/svg/shareicon.svg';
 import Slackicon from '../assets/svg/slack.svg';
+import Zurilogo from '../assets/svg/Zuri.Internship_Logo.svg';
+import I4G from '../assets/svg/I4G.svg';
 import Githubicon from '../assets/svg/github.svg';
+import {Link} from 'react-router-dom';
 
 const Main = () => {
   return (
@@ -81,13 +84,15 @@ const Main = () => {
             >
               Design Books
             </a>
-            <a
-              className="bg-[#EAECF0] rounded-lg py-6 px-6 flex items-center justify-center text-gray-900 font-medium text:sm md:text-lg w-[343px] md:w-[1152px]"
-              id="contact"
-              title="Contact Me"
-            >
-              Contact Me
-            </a>
+            <Link to="/contact">
+              <a
+                className="bg-[#EAECF0] rounded-lg py-6 px-6 flex items-center justify-center text-gray-900 font-medium text:sm md:text-lg w-[343px] md:w-[1152px]"
+                id="contact"
+                title="Contact Me"
+              >
+                Contact Me
+              </a>
+            </Link>
           </div>
         </div>
       </div>
@@ -102,6 +107,17 @@ const Main = () => {
                 <img src={Githubicon} alt="github-icon" />
               </a>
             </div>
+          </div>
+        </div>
+      </div>
+      <div className="footer md:h-40 pb-8 md:pt-12 md:pb-12 md:pl-20 md:pr-20">
+        <div className="footer-container pt-12 pb-12 pl-4 pr-4 md:pl-8 md:pr-8">
+          <div className="footer-content flex flex-col items-start md:flex-row md:justify-between md:items-center h-16 pt-8 gap-y-4 ">
+            <img src={Zurilogo} alt="zuri-logo" />
+            <p className="text-gray-500 font-normal text-base ">
+              HNG internship 9 Frontend Task
+            </p>
+            <img src={I4G} alt="i4g-logo" />
           </div>
         </div>
       </div>
